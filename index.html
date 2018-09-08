@@ -138,8 +138,9 @@
             <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
             <h2 class="text-white mb-5">Enter your email below so I can conact you!</h2>
 
-            <form class="form-inline d-flex">
-              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+            <form class="form-inline d-flex" method="POST" action="https://formspree.io/jessegarciafilm@gmail.com">
+              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" name="email" id="inputEmail" placeholder="Enter email address...">
+              <input name="message" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" type="text" placeholder="Your message">
               <button type="submit" class="btn btn-primary mx-auto">submit</button>
             </form>
 
